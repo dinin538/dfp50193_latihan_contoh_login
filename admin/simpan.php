@@ -37,7 +37,7 @@ $cust_name = $_POST['cust_name'];
 $nric = $_POST['nric'];
 
 
-$sql = "INSERT INTO contoh_login (cust_name, nric) VALUES (?, ?)";
+$sql = "INSERT INTO senaraipelajar (staff_name, nric) VALUES (?, ?)";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param('si',$cust_name, $nric);
 $stmt->execute();

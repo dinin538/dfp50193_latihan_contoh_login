@@ -12,12 +12,16 @@
     <form align="center" name="frmRegister" method="post" action="simpan.php">
        
         <p>
-            <label for="cust_name">Name: </label>
-            <input type="text" name="cust_name" id="cust_name">
+            <label for="idpengguna">ID Pengguna: </label>
+            <input type="text" name="idpengguna" id="idpengguna">
         </p>
         <p>
-            <label for="nric">Nombor Identity Card: </label>
-            <input type="text" name="nric" id="nric">
+            <label for="kata">Kata Laluan: </label>
+            <input type="text" name="kata" id="kata">
+        </p>
+        <p>
+            <label for="staff_name">staff name: </label>
+            <input type="text" name="cust_name" id="cust_name">
         </p>
        
         <p >

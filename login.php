@@ -11,6 +11,7 @@ if ($idpengguna == 'admin') {
         $_SESSION['idpengguna'] = 'admin';
         header('location: admin/');
     } else {
+        echo 'gagal'; exit;
         gagal();
     }
 } else {
